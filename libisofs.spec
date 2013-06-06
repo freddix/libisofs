@@ -1,15 +1,15 @@
 Summary:	Library to pack up hard disk files and directories into a ISO 9660 disk image
 Name:		libisofs
-Version:	1.2.8
+Version:	1.3.0
 Release:	1
 License:	GPL v2
 Group:		Libraries
 Source0:	http://files.libburnia-project.org/releases/%{name}-%{version}.tar.gz
-# Source0-md5:	9d3515929b80a08daa6423b8312be8c1
+# Source0-md5:	5ab9f4a57d3c815d1183cbf49ce86a9e
 URL:		http://libburnia.pykix.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	libburn-devel >= 1.2.8
+BuildRequires:	libburn-devel >= 1.3.0
 BuildRequires:	libtool
 BuildRequires:	pkg-config
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
