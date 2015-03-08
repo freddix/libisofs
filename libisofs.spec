@@ -1,7 +1,7 @@
 Summary:	Library to pack up hard disk files and directories into a ISO 9660 disk image
 Name:		libisofs
 Version:	1.3.8
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		Libraries
 Source0:	http://files.libburnia-project.org/releases/%{name}-%{version}.tar.gz
